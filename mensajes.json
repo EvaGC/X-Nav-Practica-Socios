@@ -1,0 +1,17 @@
+[
+	{
+		"autor":"María González",
+		"contenido":"¿qué tal?",
+		"fecha":"22/03/2017"
+	},
+	{
+		"autor":"Juan López",
+		"contenido":"Quería información",
+		"fecha":"23/03/2017"
+	},
+	{
+		"autor":"Luis Sánchez",
+		"contenido":"Heeeyyy",
+		"fecha":"23/03/2017"
+	}
+]

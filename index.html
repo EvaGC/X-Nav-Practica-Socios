@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+			<link rel="stylesheet" type="text/css" href="socios.css"/>
+			<meta charset="utf-8">
+    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>SOCIOS</title>
+	</head>
+	<body>
+	
+		  <!-- Nav tabs -->
+		  <ul class="nav nav-tabs right-to-left" role="tablist">
+
+		  <a id="act" class="Act"><i class="fa fa-refresh fa-3x fa-fw" aria-hidden="true"></i></a>
+
+		  <a id="down" class="Down"><i class="fa fa-level-down fa-3x fa-fw" aria-hidden="true"></i></a>
+
+		  <label class = "socios" href="soc">SOCIOS  <i class="fa fa-users fa-2x fa-fw" id="act2" aria-hidden="true"></i></label>
+
+		  <li role="presentation"><a href="#settings" class = "Set" aria-controls="settings" role="tab" data-toggle="tab">Settings <i class="fa fa-cog fa-2x fa-fw" aria-hidden="true"></i></a></li>
+
+		  <li role="presentation"><a href="#messages" class = "Mes" aria-controls="messages" role="tab" data-toggle="tab">Messages <i class="fa fa-paper-plane-o fa-2x fa-fw" aria-hidden="true"></i></a></li>
+
+		  <li role="presentation"><a href="#profile" class = "Prof" aria-controls="profile" role="tab" data-toggle="tab">Profile <i class="fa fa-user fa-2x fa-fw" aria-hidden="true"></i></a></li>
+
+		  <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home <i class="fa fa-home fa-2x fa-fw" aria-hidden="true"></i></a></li>
+		  </ul>
+
+		  <!-- Tab panes --><div class="container-fluid">
+		  <div class="tab-content">
+		    <div role="tabpanel" class="tab-pane active" id="home">
+		    	<div class="container-fluid" id="panel">
+		    	</div>
+		    		<div  id="textoDown"></div>
+			    	<div  id="textoActualizar"></div>
+			    	<div  id="textoHome"></div>
+		   		 </div>
+		    <div role="tabpanel" class="tab-pane" id="profile">
+		    	<div  id="textoProfile"></div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="messages">
+		    	<div  id="textoMessages"></div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="settings">
+		    	<div  id="textoSettings"></div>
+
+		    </div>
+		  </div>
+		 </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="index.js"></script>
+		<script src="timeline.json"></script>
+		<script src="update.json"></script>
+		<script src="myline.json"></script>
+		<script src="mensajes.json"></script>
+	</body>
+</html>

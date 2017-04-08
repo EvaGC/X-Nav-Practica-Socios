@@ -1,0 +1,65 @@
+html{
+	margin: auto;
+}
+.right-to-left { 
+	padding-top: 10px; 
+}
+
+.actualizar{
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+#act{
+	padding-left: 80px;
+}
+
+#down{
+	padding-left: 30px;
+}
+
+div.center.col-md-8.well.center{
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-left: 200px;
+}
+
+.right-to-left li { 
+	float: right; 
+}
+
+ul.nav.nav-tabs.right-to-left{
+	background-color: #E95D69;
+}
+
+.nav-tabs>li.active>a{
+	color:#CC3C5C;
+}
+
+a{
+	color: #8A0535;
+}
+label.socios{
+	padding-left: 180px;
+	font-size: 30px;
+	margin-bottom: 0px;
+	color: #9D355A;
+}
+label.socios i{
+	font-size: 50px;
+}
+
+
+.img-circle {
+    border-radius: 4%;
+    width: 100px;
+    height: 100px;
+}
+
+.center:hover{
+	background-color: #E95D69;
+}
+
+
+
